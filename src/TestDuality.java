@@ -21,13 +21,13 @@ public class TestDuality {
 
     Thread.sleep(3000);
 
-    Driver.findElement(By.cssSelector("#standard-basic")).sendKeys("pn-duality@yopmail.com");
+    Driver.findElement(By.cssSelector("#standard-basic")).sendKeys("");
 
 
 
     Thread.sleep(6000);
 
-  Driver.findElement(By.name("password")).sendKeys("Pn-duality9");
+  Driver.findElement(By.name("password")).sendKeys(");
 
   Driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div[2]/div/div[2]/div[1]/form/div[1]/div[3]/span/input")).click();
     Driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div[2]/div/div[2]/div[1]/form/div[1]/div[4]/span/input")).click();
